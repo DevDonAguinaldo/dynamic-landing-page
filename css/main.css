@@ -5,6 +5,11 @@
 }
 
 body {
+    background-image: url('../img/coffee-beans.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e3ceb3;
     font-family: 'Quicksand', sans-serif;
     display: flex;
     flex-direction: column;
@@ -12,6 +17,7 @@ body {
     justify-content: center;
     text-align: center;
     height: 100vh;
+    position: relative;
 }
 
 #time {
@@ -24,7 +30,7 @@ h1 {
 
 h2 {
     margin-bottom: 0.5rem;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 @media(max-height: 756px) {
