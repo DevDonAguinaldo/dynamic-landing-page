@@ -4,12 +4,16 @@
     padding: 0;
 }
 
+/*COLORS 
+* #e3ceb3 - Chocolate Cream
+*/
+
 body {
     background-image: url('../img/coffee-beans.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #e3ceb3;
+    color: white;
     font-family: 'Quicksand', sans-serif;
     display: flex;
     flex-direction: column;
